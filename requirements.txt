@@ -1,0 +1,7 @@
+face_recognition
+opencv-python
+joblib
+numpy
+icrawler
+streamlit
+deepface
