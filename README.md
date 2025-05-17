@@ -7,6 +7,7 @@
 ## Project Overview
 DrishtiShakti is a real-time vision intelligence system that combines face recognition and emotion detection. Built using Python libraries such as OpenCV, `face_recognition`, and DeepFace, it supports webcam and image upload modes, displaying annotated results with confidence scores.
 
+
 ![alt text](drishti01.png)
 ![alt text](drishti02.png) 
 
@@ -48,11 +49,26 @@ pip install -r requirements.txt
 
 ## Running the Application
 
-### Step 1: Prepare Dataset (Optional)
+### Step 1: Prepare Dataset
+To enable face recognition, prepare a dataset of face images:
+
+1. Create a /dataset/ folder in the project root.
+2.  Organize images in subfolders named after individuals (e.g., /dataset/John Doe/).
+3. The model is trained on 5 directories (Elon Musk, Narendra Modi, Nirmala Sitharaman, Shubham Gupta, Virat Kohli), each with 30 images.
+4. Each subfolder should contain clear, well-lit face images (JPG or PNG).
+5. Run the encoding script to generate face encodings:
+
 Collect face images and generate encodings:
 ```bash
 python encode_faces.py
 ```
+
+6. The script uses icrawler to optionally crawl images from the web (configure as needed).
+
+Tips:
+
+- Use at least 5–10 images per person for reliable recognition.
+- Ensure consistent lighting and minimal occlusions (e.g., glasses, hats).
 
 ### Step 2: Run the Streamlit App
 ```bash
@@ -87,4 +103,3 @@ streamlit run app.py
 This project is licensed under the MIT License.
 
 **Thank you for using DrishtiShakti!** 👁️‍🗨️✨
-```
