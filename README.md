@@ -7,6 +7,9 @@
 ## Project Overview
 DrishtiShakti is a real-time vision intelligence system that combines face recognition and emotion detection. Built using Python libraries such as OpenCV, `face_recognition`, and DeepFace, it supports webcam and image upload modes, displaying annotated results with confidence scores.
 
+![alt text](drishti01.png)
+![alt text](drishti02.png) 
+
 ## Features
 - Real-time face recognition via webcam or uploaded images
 - Emotion detection for recognized faces

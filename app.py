@@ -233,7 +233,7 @@ st.markdown("---")
 st.markdown(
     """
     <div class="footer">
-        <p>Real-Time Vision Intelligence System | Version 1.0 | Powered by Streamlit & OpenCV</p>
+        <p>Face Recognition & Emotion Detection using AI | Version 1.0 | Powered by Streamlit & OpenCV</p>
         <p>Made with ❤️ by <i>Shubham Gupta</i></p>
         <p>Built for face recognition and emotion detection. For feedback, contact: <a href="mailto:shubhamgupta15m@gmail.com">shubhamgupta15m@gmail.com</a></p>
     </div>
